@@ -50,8 +50,10 @@
 
     <?php include("sistema.php"); ?>
 
+    <h4>Nivel de Perigo</h4>
     <h3><?= $grauPerigo?></h3>
     <h3>Ponto Fraco: <?= $pontoFraco?></h3>
+    <h3>Ponto Forte: <?= $pontoForte?></h3>
 
     </section>
 

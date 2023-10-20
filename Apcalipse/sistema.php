@@ -25,5 +25,10 @@
   if($pontoFraco == $velocidade){ $pontoFraco = "Velocidade";}
   if($pontoFraco == $forca){ $pontoFraco = "Força";}
 
+  $pontoForte = max($forca, $velocidade, $inteligencia);
+  if($pontoForte == $inteligencia){ $pontoForte = "Inteligencia";}
+  if($pontoForte == $velocidade){ $pontoForte = "Velocidade";}
+  if($pontoForte == $forca){ $pontoForte = "Força";}
+
  
  ?>
