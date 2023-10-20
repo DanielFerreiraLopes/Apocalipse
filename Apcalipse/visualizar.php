@@ -54,6 +54,8 @@
     <h3><?= $grauPerigo?></h3>
     <h3>Ponto Fraco: <?= $pontoFraco?></h3>
     <h3>Ponto Forte: <?= $pontoForte?></h3>
+    <h3>Medidade de Ataque: <?= $medidaAtaque?></h3>
+    <h3>Medidade de Defesa: <?= $medidaDesefa?></h3>
 
     </section>
 

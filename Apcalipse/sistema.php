@@ -30,5 +30,34 @@
   if($pontoForte == $velocidade){ $pontoForte = "Velocidade";}
   if($pontoForte == $forca){ $pontoForte = "Força";}
 
- 
+  
+  switch ($pontoForte) {
+    case "Força":
+        $medidaDesefa = "O pato ativa um mecanismo de camuflagem ficando imperceptivo.";
+        break;
+    case "Velocidade":
+        $medidaDesefa = "O pato ira desencadear uma descarga eletrica impedindo que o zumbi o toque.";
+        break;
+    case "Inteligencia":
+        $medidaDesefa = "O pato batera(as asas) em retirada.";
+        break;
+  }
+
+  switch ($pontoFraco) {
+    case "Força":
+        $medidaAtaque = "O pato usara os objetos ao seu redor para esmagar o zumbi.";
+        break;
+    case "Velocidade":
+        $medidaAtaque = "O pato ira atirar projeteis de penas afiados.";
+        break;
+    case "Inteligencia":
+        $medidaAtaque = "Dependendo da Inteligencia do zumbi o pato devera fazer perguntas matematicas cada fez mais díficeis para que o celebro do zumbi exploda.";
+        break;
+  }
+
+  if($periculosidade > 80){
+    $medidaDesefa = "Bater em retirada imediatamente.";
+    $medidaAtaque = "Ativar Autodestruição.";
+  }
+
  ?>
